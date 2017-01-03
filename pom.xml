@@ -34,6 +34,13 @@
 
   </properties>
 
+  <scm>
+    <connection>scm:git:git@github.com:astondevops/spring-petclinic</connection>
+    <url>https://github.com/astondevops/spring-petclinic</url>
+    <developerConnection>scm:git:git@github.com:astondevops/spring-petclinic.git</developerConnection>
+  </scm>
+
+
   <dependencies>
     <!-- Spring and Spring Boot dependencies -->
     <dependency>
@@ -225,5 +232,14 @@
       </plugin>
     </plugins>
   </reporting>
+
+
+  <distributionManagement>
+    <repository>
+        <id>nexus-release-repository</id>
+        <name>release-repository</name>
+        <url>${REPOSITORY_URL}</url>
+     </repository>
+  </distributionManagement>
 
 </project>
