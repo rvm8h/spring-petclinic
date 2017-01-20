@@ -3,7 +3,7 @@
 ## Understanding the Spring Petclinic application with a few diagrams
 <a href="https://speakerdeck.com/michaelisvy/spring-petclinic-sample-application">See the presentation here</a>
 
-## Running petclinic locally
+## Running petclinic locally.
 ```
 	git clone https://github.com/spring-projects/spring-petclinic.git
 	cd spring-petclinic
@@ -18,7 +18,7 @@ You can then access petclinic here: http://localhost:8080
 Our issue tracker is available here: https://github.com/spring-projects/spring-petclinic/issues
 
 
-## Database configuration
+## Database configuration.
 
 In its default configuration, Petclinic uses an in-memory database (HSQLDB) which
 gets populated at startup with data. A similar setup is provided for MySql in case a persistent database configuration is needed.
@@ -32,7 +32,7 @@ docker run -e MYSQL_ROOT_PASSWORD=petclinic -e MYSQL_DATABASE=petclinic -p 3306:
 
 ## Working with Petclinic in Eclipse/STS.
 
-### prerequisites
+### prerequisites.
 The following items should be installed in your system:
 * Maven 3 (http://www.sonatype.com/books/mvnref-book/reference/installation.html)
 * git command line tool (https://help.github.com/articles/set-up-git)
