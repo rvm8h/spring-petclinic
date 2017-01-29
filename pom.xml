@@ -35,7 +35,7 @@
   </properties>
 
   <scm>
-    <connection>scm:git:git@github.com:astondevops/spring-petclinic</connection>
+    <connection>scm:git:git@github.com:astondevops/spring-petclinic.git</connection>
     <url>https://github.com/astondevops/spring-petclinic</url>
     <developerConnection>scm:git:git@github.com:astondevops/spring-petclinic.git</developerConnection>
   </scm>
