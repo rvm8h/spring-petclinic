@@ -1,0 +1,14 @@
+<settings>
+  <!-- the path to the local repository - defaults to ~/.m2/repository
+  -->
+  <!-- <localRepository>/path/to/local/repo</localRepository>
+  -->
+
+  <servers>
+    <server>
+      <id>nexus</id>
+      <username>admin</username>
+      <password>admin123</password>
+    </server>
+  </servers>
+</settings>
